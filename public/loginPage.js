@@ -1,6 +1,5 @@
 "use strict";
 
-
 const newUser = new UserForm ();
 newUser.loginFormCallback = function (data) {
      ApiConnector.login(data, response => {
